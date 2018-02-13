@@ -1,5 +1,7 @@
 # JDBC output plugins for Embulk
 
+**Forked to change behavior of Embulk string columns: we default VARCHAR for these columns, previously the default was CLOB.**
+
 JDBC output plugins for Embulk loads records to databases using JDBC drivers.
 
 ## MySQL
