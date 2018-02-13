@@ -892,8 +892,8 @@ public abstract class AbstractJdbcOutputPlugin
                 public void stringColumn(Column column)
                 {
                     columns.add(JdbcColumn.newGenericTypeColumn(
-                            columnName, Types.CLOB, "CLOB",
-                            4000, 0, false, false));  // TODO size type param
+                            columnName, Types.VARCHAR, "VARCHAR",
+                            256, 0, false, false));  // TODO size type param
                 }
 
                 public void jsonColumn(Column column)
