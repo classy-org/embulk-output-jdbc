@@ -1,5 +1,7 @@
 # JDBC output plugins for Embulk
 
+**Forked to change behavior of Embulk string columns: we default VARCHAR for these columns, previously the default was CLOB.**
+
 JDBC output plugins for Embulk loads records to databases using JDBC drivers.
 
 **[WARNING!]** The next version of embulk-output-jdbc will use embulk 0.9, and will require Java 8. Java 7 will no longer be supported.
